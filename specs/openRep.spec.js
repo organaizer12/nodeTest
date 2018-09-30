@@ -15,5 +15,3 @@ describe('open home page', function() {
 
 	})
 })
-
-/* $ java -jar -Dwebdriver.firefox.profile=’geckodriver’ selenium-server-standalone-3.0.1.jar*/
