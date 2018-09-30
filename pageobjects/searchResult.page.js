@@ -6,7 +6,7 @@ var SearchResultPage = Object.create( Page, {
 	openFirst: {value: function() {
 		this.resultElem.click()
 	}},
-	FirstElemHasText: {value: function(text) {
+	firstElemHasText: {value: function(text) {
 		return this.resultElem.getText() == text;
 	}}
 });
